@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_msgs/share/roseus/ros/husky_msgs/manifest.l

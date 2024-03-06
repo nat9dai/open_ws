@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/include/laser_filters/BoxFilterConfig.h"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/include/laser_filters/IntensityFilterConfig.h"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/include/laser_filters/PolygonFilterConfig.h"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/include/laser_filters/RangeFilterConfig.h"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/include/laser_filters/ScanShadowsFilterConfig.h"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/include/laser_filters/SectorFilterConfig.h"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/include/laser_filters/SpeckleFilterConfig.h"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/lib/python3/dist-packages/laser_filters/cfg/BoxFilterConfig.py"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/lib/python3/dist-packages/laser_filters/cfg/IntensityFilterConfig.py"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/lib/python3/dist-packages/laser_filters/cfg/PolygonFilterConfig.py"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/lib/python3/dist-packages/laser_filters/cfg/RangeFilterConfig.py"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/lib/python3/dist-packages/laser_filters/cfg/ScanShadowsFilterConfig.py"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/lib/python3/dist-packages/laser_filters/cfg/SectorFilterConfig.py"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/lib/python3/dist-packages/laser_filters/cfg/SpeckleFilterConfig.py"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/BoxFilterConfig-usage.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/BoxFilterConfig.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/BoxFilterConfig.wikidoc"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/IntensityFilterConfig-usage.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/IntensityFilterConfig.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/IntensityFilterConfig.wikidoc"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/PolygonFilterConfig-usage.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/PolygonFilterConfig.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/PolygonFilterConfig.wikidoc"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/RangeFilterConfig-usage.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/RangeFilterConfig.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/RangeFilterConfig.wikidoc"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/ScanShadowsFilterConfig-usage.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/ScanShadowsFilterConfig.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/ScanShadowsFilterConfig.wikidoc"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/SectorFilterConfig-usage.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/SectorFilterConfig.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/SectorFilterConfig.wikidoc"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/SpeckleFilterConfig-usage.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/SpeckleFilterConfig.dox"
+  "/home/nat/ros_workspaces/open_ws/devel/.private/laser_filters/share/laser_filters/docs/SpeckleFilterConfig.wikidoc"
+  "CMakeFiles/laser_filters_gencfg"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/laser_filters_gencfg.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

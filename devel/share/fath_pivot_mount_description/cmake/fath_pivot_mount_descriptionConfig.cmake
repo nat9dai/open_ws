@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/fath_pivot_mount_description/share/fath_pivot_mount_description/cmake/fath_pivot_mount_descriptionConfig.cmake

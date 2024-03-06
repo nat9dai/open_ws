@@ -1,0 +1,30 @@
+In file included from /usr/include/boost/bind.hpp:22,
+                 from /opt/ros/noetic/include/ros/publisher.h:35,
+                 from /opt/ros/noetic/include/ros/node_handle.h:32,
+                 from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:7:
+/usr/include/boost/bind/bind.hpp: In instantiation of ‘struct boost::_bi::result_traits<boost::_bi::unspecified, int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&)>’:
+/usr/include/boost/bind/bind.hpp:1284:48:   required from ‘class boost::_bi::bind_t<boost::_bi::unspecified, int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&), boost::_bi::list3<boost::_bi::value<open_nmpc_controller::OptimizationEngineManager*>, boost::arg<1>, boost::_bi::value<int> > >’
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:603:103:   required from here
+/usr/include/boost/bind/bind.hpp:75:37: error: ‘int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&)’ is not a class, struct, or union type
+   75 |     typedef typename F::result_type type;
+      |                                     ^~~~
+In file included from /usr/include/boost/function/detail/maybe_include.hpp:22,
+                 from /usr/include/boost/function/detail/function_iterate.hpp:14,
+                 from /usr/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:53,
+                 from /usr/include/boost/function.hpp:71,
+                 from /opt/ros/noetic/include/ros/forwards.h:40,
+                 from /opt/ros/noetic/include/ros/common.h:37,
+                 from /opt/ros/noetic/include/ros/ros.h:43,
+                 from /home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:7:
+/usr/include/boost/function/function_template.hpp: In instantiation of ‘static void boost::detail::function::void_function_obj_invoker1<FunctionObj, R, T0>::invoke(boost::detail::function::function_buffer&, T0) [with FunctionObj = boost::_bi::bind_t<boost::_bi::unspecified, int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&), boost::_bi::list3<boost::_bi::value<open_nmpc_controller::OptimizationEngineManager*>, boost::arg<1>, boost::_bi::value<int> > >; R = void; T0 = const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&]’:
+/usr/include/boost/function/function_template.hpp:931:38:   required from ‘void boost::function1<R, T1>::assign_to(Functor) [with Functor = boost::_bi::bind_t<boost::_bi::unspecified, int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&), boost::_bi::list3<boost::_bi::value<open_nmpc_controller::OptimizationEngineManager*>, boost::arg<1>, boost::_bi::value<int> > >; R = void; T0 = const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&]’
+/usr/include/boost/function/function_template.hpp:720:7:   required from ‘boost::function1<R, T1>::function1(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = boost::_bi::bind_t<boost::_bi::unspecified, int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&), boost::_bi::list3<boost::_bi::value<open_nmpc_controller::OptimizationEngineManager*>, boost::arg<1>, boost::_bi::value<int> > >; R = void; T0 = const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int]’
+/usr/include/boost/function/function_template.hpp:1068:16:   required from ‘boost::function<R(T0)>::function(Functor, typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type) [with Functor = boost::_bi::bind_t<boost::_bi::unspecified, int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&), boost::_bi::list3<boost::_bi::value<open_nmpc_controller::OptimizationEngineManager*>, boost::arg<1>, boost::_bi::value<int> > >; R = void; T0 = const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&; typename boost::enable_if_<(! boost::is_integral<Functor>::value), int>::type = int]’
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:604:5:   required from here
+/usr/include/boost/function/function_template.hpp:158:11: error: no match for call to ‘(boost::_bi::bind_t<boost::_bi::unspecified, int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&), boost::_bi::list3<boost::_bi::value<open_nmpc_controller::OptimizationEngineManager*>, boost::arg<1>, boost::_bi::value<int> > >) (const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&)’
+  158 |           BOOST_FUNCTION_RETURN((*f)(BOOST_FUNCTION_ARGS));
+      |           ^~~~~~~~~~~~~~~~~~~~~
+make[2]: *** [CMakeFiles/open_mpc_controller_node.dir/build.make:63: CMakeFiles/open_mpc_controller_node.dir/src/open_optimizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/open_mpc_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

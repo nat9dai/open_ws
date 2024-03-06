@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_gazebo/lib/pkgconfig/husky_gazebo.pc

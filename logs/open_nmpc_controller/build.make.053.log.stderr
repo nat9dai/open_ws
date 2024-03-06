@@ -1,0 +1,18 @@
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp: In function ‘int main(int, char**)’:
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:601:35: error: ‘i’ was not declared in this scope
+  601 |         "husky_" + std::to_string(i) + "/front/scan",
+      |                                   ^
+In file included from /usr/include/boost/bind.hpp:22,
+                 from /opt/ros/noetic/include/ros/publisher.h:35,
+                 from /opt/ros/noetic/include/ros/node_handle.h:32,
+                 from /opt/ros/noetic/include/ros/ros.h:45,
+                 from /home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:7:
+/usr/include/boost/bind/bind.hpp: In instantiation of ‘struct boost::_bi::result_traits<boost::_bi::unspecified, int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&)>’:
+/usr/include/boost/bind/bind.hpp:1284:48:   required from ‘class boost::_bi::bind_t<boost::_bi::unspecified, int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&), boost::_bi::list3<boost::_bi::value<open_nmpc_controller::OptimizationEngineManager*>, boost::arg<1>, boost::_bi::value<int> > >’
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:603:103:   required from here
+/usr/include/boost/bind/bind.hpp:75:37: error: ‘int (open_nmpc_controller::OptimizationEngineManager::*)(const boost::shared_ptr<const sensor_msgs::LaserScan_<std::allocator<void> > >&)’ is not a class, struct, or union type
+   75 |     typedef typename F::result_type type;
+      |                                     ^~~~
+make[2]: *** [CMakeFiles/open_mpc_controller_node.dir/build.make:63: CMakeFiles/open_mpc_controller_node.dir/src/open_optimizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/open_mpc_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

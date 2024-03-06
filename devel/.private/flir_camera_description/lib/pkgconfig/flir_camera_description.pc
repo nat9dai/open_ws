@@ -1,0 +1,8 @@
+prefix=/home/nat/ros_workspaces/open_ws/devel/.private/flir_camera_description
+
+Name: flir_camera_description
+Description: Description of flir_camera_description
+Version: 0.2.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

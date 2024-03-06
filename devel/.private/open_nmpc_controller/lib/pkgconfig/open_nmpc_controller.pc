@@ -1,0 +1,8 @@
+prefix=/home/nat/ros_workspaces/open_ws/devel/.private/open_nmpc_controller
+
+Name: open_nmpc_controller
+Description: Description of open_nmpc_controller
+Version: 0.0.0
+Cflags: -I/home/nat/ros_workspaces/open_ws/devel/.private/open_nmpc_controller/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

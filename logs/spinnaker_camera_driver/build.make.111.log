@@ -1,0 +1,9 @@
+[  5%] Built target spinnaker_camera_driver_gencfg
+[ 17%] Built target Camera
+[ 41%] Built target Gh3
+[ 41%] Built target Cm3
+[ 52%] Built target SpinnakerCameraLib
+[ 76%] Built target spinnaker_test_node
+[ 76%] Built target spinnaker_camera_node
+[ 88%] Built target Diagnostics
+[100%] Built target SpinnakerCameraNodelet

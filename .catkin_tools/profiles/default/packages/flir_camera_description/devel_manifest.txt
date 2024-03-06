@@ -1,0 +1,5 @@
+flir_camera_driver/flir_camera_description
+/home/nat/ros_workspaces/open_ws/devel/.private/flir_camera_description/cmake.lock /home/nat/ros_workspaces/open_ws/devel/./cmake.lock
+/home/nat/ros_workspaces/open_ws/devel/.private/flir_camera_description/share/flir_camera_description/cmake/flir_camera_descriptionConfig.cmake /home/nat/ros_workspaces/open_ws/devel/share/flir_camera_description/cmake/flir_camera_descriptionConfig.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/flir_camera_description/share/flir_camera_description/cmake/flir_camera_descriptionConfig-version.cmake /home/nat/ros_workspaces/open_ws/devel/share/flir_camera_description/cmake/flir_camera_descriptionConfig-version.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/flir_camera_description/lib/pkgconfig/flir_camera_description.pc /home/nat/ros_workspaces/open_ws/devel/lib/pkgconfig/flir_camera_description.pc

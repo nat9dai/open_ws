@@ -1,0 +1,6 @@
+devel_space: /home/nat/ros_workspaces/open_ws/devel
+install: false
+install_space: /home/nat/ros_workspaces/open_ws/install
+profile: default
+source_space: /home/nat/ros_workspaces/open_ws/src
+workspace: /home/nat/ros_workspaces/open_ws

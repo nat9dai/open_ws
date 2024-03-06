@@ -1,0 +1,5 @@
+husky/husky_description
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_description/cmake.lock /home/nat/ros_workspaces/open_ws/devel/./cmake.lock
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_description/share/husky_description/cmake/husky_descriptionConfig-version.cmake /home/nat/ros_workspaces/open_ws/devel/share/husky_description/cmake/husky_descriptionConfig-version.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_description/share/husky_description/cmake/husky_descriptionConfig.cmake /home/nat/ros_workspaces/open_ws/devel/share/husky_description/cmake/husky_descriptionConfig.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_description/lib/pkgconfig/husky_description.pc /home/nat/ros_workspaces/open_ws/devel/lib/pkgconfig/husky_description.pc

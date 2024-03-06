@@ -1,0 +1,21 @@
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp: In member function ‘void open_nmpc_controller::OptimizationEngineManager::solveAndPublishCmdVel(ros::Publisher&, ros::Publisher&, int)’:
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:349:9: error: expected primary-expression before ‘/’ token
+  349 |         /ROS_INFO("%d x_bar: %f y_bar: %f x_0: %f",robot_index, x_bar[0], y_bar[0], std::get<0>(robot_traj[0][0]));
+      |         ^
+In file included from /opt/ros/noetic/include/ros/ros.h:40,
+                 from /home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:7:
+/opt/ros/noetic/include/ros/console.h:384:3: error: expected primary-expression before ‘do’
+  384 |   do \
+      |   ^~
+/opt/ros/noetic/include/ros/console.h:575:35: note: in expansion of macro ‘ROS_LOG_COND’
+  575 | #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+      |                                   ^~~~~~~~~~~~
+/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23: note: in expansion of macro ‘ROS_LOG’
+  110 | #define ROS_INFO(...) ROS_LOG(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       ^~~~~~~
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:349:10: note: in expansion of macro ‘ROS_INFO’
+  349 |         /ROS_INFO("%d x_bar: %f y_bar: %f x_0: %f",robot_index, x_bar[0], y_bar[0], std::get<0>(robot_traj[0][0]));
+      |          ^~~~~~~~
+make[2]: *** [CMakeFiles/open_mpc_controller_node.dir/build.make:63: CMakeFiles/open_mpc_controller_node.dir/src/open_optimizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/open_mpc_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

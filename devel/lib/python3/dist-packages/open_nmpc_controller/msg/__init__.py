@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/open_nmpc_controller/lib/python3/dist-packages/open_nmpc_controller/msg/__init__.py

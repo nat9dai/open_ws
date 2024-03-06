@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nat/ros_workspaces/open_ws/devel/.private/husky_control/setup.sh

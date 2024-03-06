@@ -1,0 +1,24 @@
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:229:41: error: expected ‘,’ or ‘...’ before ‘int’
+  229 |     void hierarchyUpdate(int array[][T] int robot_index){
+      |                                         ^~~
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp: In member function ‘void open_nmpc_controller::OptimizationEngineManager::hierarchyUpdate(int (*)[10])’:
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:233:66: error: expected ‘;’ before ‘}’ token
+  233 |                 minElement = std::min(minElement, hierarchies[i])
+      |                                                                  ^
+      |                                                                  ;
+  234 |             }
+      |             ~                                                     
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:236:21: error: ‘robot_index’ was not declared in this scope
+  236 |         hierarchies[robot_index] = std::min(pi_bar, 1+minElement);
+      |                     ^~~~~~~~~~~
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp: In member function ‘void open_nmpc_controller::OptimizationEngineManager::solveAndPublishCmdVel(ros::Publisher&, ros::Publisher&, ros::Publisher&, int)’:
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:341:53: error: no matching function for call to ‘open_nmpc_controller::OptimizationEngineManager::hierarchyUpdate(int [3][10], int&)’
+  341 |         hierarchyUpdate(detection_array, robot_index);
+      |                                                     ^
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:229:10: note: candidate: ‘void open_nmpc_controller::OptimizationEngineManager::hierarchyUpdate(int (*)[10])’
+  229 |     void hierarchyUpdate(int array[][T] int robot_index){
+      |          ^~~~~~~~~~~~~~~
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:229:10: note:   candidate expects 1 argument, 2 provided
+make[2]: *** [CMakeFiles/open_mpc_controller_node.dir/build.make:63: CMakeFiles/open_mpc_controller_node.dir/src/open_optimizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/open_mpc_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

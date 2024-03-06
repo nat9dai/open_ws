@@ -1,0 +1,37 @@
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp: In member function ‘void open_nmpc_controller::OptimizationEngineManager::solveAndPublishCmdVel(ros::Publisher&, ros::Publisher&, int)’:
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:390:32: error: no match for ‘operator=’ (operand types are ‘open_nmpc_controller::OptimizationParameters_<std::allocator<void> >::_initial_guess_type’ {aka ‘std::vector<double>’} and ‘double [20]’)
+  390 |         params.initial_guess = current_var;
+      |                                ^~~~~~~~~~~
+In file included from /usr/include/c++/9/vector:72,
+                 from /usr/include/boost/math/special_functions/math_fwd.hpp:26,
+                 from /usr/include/boost/math/special_functions/round.hpp:15,
+                 from /opt/ros/noetic/include/ros/time.h:58,
+                 from /opt/ros/noetic/include/ros/ros.h:38,
+                 from /home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:7:
+/usr/include/c++/9/bits/vector.tcc:198:5: note: candidate: ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = double; _Alloc = std::allocator<double>]’
+  198 |     vector<_Tp, _Alloc>::
+      |     ^~~~~~~~~~~~~~~~~~~
+/usr/include/c++/9/bits/vector.tcc:199:42: note:   no known conversion for argument 1 from ‘double [20]’ to ‘const std::vector<double>&’
+  199 |     operator=(const vector<_Tp, _Alloc>& __x)
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+In file included from /usr/include/c++/9/vector:67,
+                 from /usr/include/boost/math/special_functions/math_fwd.hpp:26,
+                 from /usr/include/boost/math/special_functions/round.hpp:15,
+                 from /opt/ros/noetic/include/ros/time.h:58,
+                 from /opt/ros/noetic/include/ros/ros.h:38,
+                 from /home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:7:
+/usr/include/c++/9/bits/stl_vector.h:706:7: note: candidate: ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = double; _Alloc = std::allocator<double>]’
+  706 |       operator=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+      |       ^~~~~~~~
+/usr/include/c++/9/bits/stl_vector.h:706:26: note:   no known conversion for argument 1 from ‘double [20]’ to ‘std::vector<double>&&’
+  706 |       operator=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())
+      |                 ~~~~~~~~~^~~
+/usr/include/c++/9/bits/stl_vector.h:727:7: note: candidate: ‘std::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = double; _Alloc = std::allocator<double>]’
+  727 |       operator=(initializer_list<value_type> __l)
+      |       ^~~~~~~~
+/usr/include/c++/9/bits/stl_vector.h:727:46: note:   no known conversion for argument 1 from ‘double [20]’ to ‘std::initializer_list<double>’
+  727 |       operator=(initializer_list<value_type> __l)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+make[2]: *** [CMakeFiles/open_mpc_controller_node.dir/build.make:63: CMakeFiles/open_mpc_controller_node.dir/src/open_optimizer.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:188: CMakeFiles/open_mpc_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

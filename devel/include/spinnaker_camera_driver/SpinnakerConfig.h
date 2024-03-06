@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/spinnaker_camera_driver/include/spinnaker_camera_driver/SpinnakerConfig.h

@@ -1,0 +1,46 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/nat/ros_workspaces/open_ws/devel/.private/spinnaker_camera_driver
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/nat/ros_workspaces/open_ws/devel;/home/nat/ros_workspaces/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/nat/ros_workspaces/open_ws/devel;/home/nat/ros_workspaces/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /home/nat/.local/lib/python3.8/site-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m libSpinnaker not found in system library path
+[36m--[0m Running download_spinnaker script with arguments: x86_64 /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/usr/lib focal
+INFO:root:CPU architecture is x86_64
+INFO:root:OS code name is focal
+INFO:root:Destination folder is /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/usr/lib
+INFO:root:Previous installation found, skipping...
+[36m--[0m libSpinnaker library: /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/usr/lib/libSpinnaker.so
+[36m--[0m libSpinnaker include: /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/opt/spinnaker/include/
+[31m[1mCMake Error[0m at /home/nat/ros_workspaces/open_ws/src/flir_camera_driver/spinnaker_camera_driver/CMakeLists.txt:125 (find_package):
+  By not providing "Findroslint.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "roslint", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "roslint" with any
+  of the following names:
+
+    roslintConfig.cmake
+    roslint-config.cmake
+
+  Add the installation prefix of "roslint" to CMAKE_PREFIX_PATH or set
+  "roslint_DIR" to a directory containing one of the above files.  If
+  "roslint" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/CMakeFiles/CMakeOutput.log".
+See also "/home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/CMakeFiles/CMakeError.log".
+make: *** [Makefile:1722: cmake_check_build_system] Error 1

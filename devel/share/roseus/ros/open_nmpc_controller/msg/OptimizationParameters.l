@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/open_nmpc_controller/share/roseus/ros/open_nmpc_controller/msg/OptimizationParameters.l

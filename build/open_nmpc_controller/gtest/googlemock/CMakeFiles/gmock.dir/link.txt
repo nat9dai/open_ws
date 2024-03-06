@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgmock.so -o ../lib/libgmock.so CMakeFiles/gmock.dir/src/gmock-all.cc.o  -Wl,-rpath,/home/nat/ros_workspaces/open_ws/build/open_nmpc_controller/gtest/lib ../lib/libgtest.so -lpthread 

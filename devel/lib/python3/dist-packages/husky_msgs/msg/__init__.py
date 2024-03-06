@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_msgs/lib/python3/dist-packages/husky_msgs/msg/__init__.py

@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/catkin_tools_prebuild/setup.bash

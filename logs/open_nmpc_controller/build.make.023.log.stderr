@@ -1,0 +1,7 @@
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp: In member function ‘void open_nmpc_controller::OptimizationEngineManager::solveAndPublishCmdVel(ros::Publisher&, ros::Publisher&, int)’:
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:383:43: warning: iteration 2 invokes undefined behavior [-Waggressive-loop-optimizations]
+  383 |                 current_par[offset+index] = std::get<0>(robot_traj[j][i]);
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller/src/open_optimizer.cpp:380:24: note: within this loop
+  380 |         for (int i=0; i<T; ++i) {
+      |                       ~^~

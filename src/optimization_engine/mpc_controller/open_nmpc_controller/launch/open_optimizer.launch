@@ -1,0 +1,10 @@
+<launch>
+  <node name="open_nmpc_controller"
+        pkg="open_nmpc_controller"
+        type="open_mpc_controller_node"
+        respawn="true"
+        clear_params="true"
+        output="screen">
+    <rosparam file="$(find open_nmpc_controller)/config/open_params.yaml" />
+  </node>
+</launch>

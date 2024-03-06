@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_description/share/husky_description/cmake/husky_descriptionConfig-version.cmake

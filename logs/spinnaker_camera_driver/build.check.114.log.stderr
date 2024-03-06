@@ -1,0 +1,4 @@
+INFO:root:CPU architecture is x86_64
+INFO:root:OS code name is focal
+INFO:root:Destination folder is /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/usr/lib
+INFO:root:Previous installation found, skipping...

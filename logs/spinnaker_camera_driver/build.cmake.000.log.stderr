@@ -1,0 +1,34 @@
+INFO:root:CPU architecture is x86_64
+INFO:root:OS code name is focal
+INFO:root:Destination folder is /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/usr/lib
+INFO:root:Downloading SDK archive from https://packages.clearpathrobotics.com/stable/flir/Spinnaker/Ubuntu20.04/spinnaker-2.2.0.48-Ubuntu20.04-amd64-pkg.tar.gz...
+INFO:root:Unpacking tarball.
+INFO:root:Unpacking debs.
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/libspinnaker_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/libspinvideo-c_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/libspinnaker-c-dev_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/libgentl_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/spinupdate_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/spinview-qt-dev_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/spinview-qt_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/libspinnaker-c_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/spinnaker-doc_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/libspinvideo-dev_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/libspinnaker-dev_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/libspinvideo-c-dev_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/libspinvideo_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/spinnaker_2.2.0.48_amd64.deb
+INFO:root:Extracting /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/spinnaker-2.2.0.48-amd64/spinupdate-dev_2.2.0.48_amd64.deb
+INFO:root:Copying libraries to /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/usr/lib
+INFO:root:Copying: libSpinnaker_C.so.2
+INFO:root:Copying: libSpinnaker.so
+INFO:root:Copying: libSpinnaker.so.2
+INFO:root:Copying: libSpinnaker_C.so
+INFO:root:Copying: libSpinnaker.so.2.2.0.48
+INFO:root:Copying: libSpinnaker_C.so.2.2.0.48
+INFO:root:Copying: libGCBase_gcc9_v3_0.so
+INFO:root:Copying: libGenApi_gcc9_v3_0.so
+INFO:root:Copying: libXmlParser_gcc9_v3_0.so
+INFO:root:Copying: libMathParser_gcc9_v3_0.so
+INFO:root:Copying: libLog_gcc9_v3_0.so
+INFO:root:Copying: libNodeMapData_gcc9_v3_0.so

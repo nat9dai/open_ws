@@ -1,0 +1,5 @@
+husky/husky_viz
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_viz/cmake.lock /home/nat/ros_workspaces/open_ws/devel/./cmake.lock
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_viz/share/husky_viz/cmake/husky_vizConfig.cmake /home/nat/ros_workspaces/open_ws/devel/share/husky_viz/cmake/husky_vizConfig.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_viz/share/husky_viz/cmake/husky_vizConfig-version.cmake /home/nat/ros_workspaces/open_ws/devel/share/husky_viz/cmake/husky_vizConfig-version.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_viz/lib/pkgconfig/husky_viz.pc /home/nat/ros_workspaces/open_ws/devel/lib/pkgconfig/husky_viz.pc

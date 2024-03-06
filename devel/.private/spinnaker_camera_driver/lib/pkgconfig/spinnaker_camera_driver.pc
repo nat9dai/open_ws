@@ -1,0 +1,8 @@
+prefix=/home/nat/ros_workspaces/open_ws/devel/.private/spinnaker_camera_driver
+
+Name: spinnaker_camera_driver
+Description: Description of spinnaker_camera_driver
+Version: 0.2.5
+Cflags: -I/home/nat/ros_workspaces/open_ws/devel/.private/spinnaker_camera_driver/include
+Libs: -L${prefix}/lib 
+Requires: image_exposure_msgs nodelet roscpp sensor_msgs wfov_camera_msgs

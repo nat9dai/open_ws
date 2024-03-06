@@ -1,0 +1,5 @@
+husky/husky_gazebo
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_gazebo/cmake.lock /home/nat/ros_workspaces/open_ws/devel/./cmake.lock
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_gazebo/share/husky_gazebo/cmake/husky_gazeboConfig-version.cmake /home/nat/ros_workspaces/open_ws/devel/share/husky_gazebo/cmake/husky_gazeboConfig-version.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_gazebo/share/husky_gazebo/cmake/husky_gazeboConfig.cmake /home/nat/ros_workspaces/open_ws/devel/share/husky_gazebo/cmake/husky_gazeboConfig.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_gazebo/lib/pkgconfig/husky_gazebo.pc /home/nat/ros_workspaces/open_ws/devel/lib/pkgconfig/husky_gazebo.pc

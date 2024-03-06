@@ -1,0 +1,1 @@
+/home/nat/ros_workspaces/open_ws/devel/.private/open_nmpc_controller/include/open_nmpc_controller/OptimizationResult.h

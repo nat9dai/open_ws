@@ -1,0 +1,22 @@
+INFO:root:CPU architecture is x86_64
+INFO:root:OS code name is focal
+INFO:root:Destination folder is /home/nat/ros_workspaces/open_ws/build/spinnaker_camera_driver/usr/lib
+INFO:root:Previous installation found, skipping...
+[31m[1mCMake Error[0m at /home/nat/ros_workspaces/open_ws/src/flir_camera_driver/spinnaker_camera_driver/CMakeLists.txt:125 (find_package):
+  By not providing "Findroslint.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "roslint", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "roslint" with any
+  of the following names:
+
+    roslintConfig.cmake
+    roslint-config.cmake
+
+  Add the installation prefix of "roslint" to CMAKE_PREFIX_PATH or set
+  "roslint_DIR" to a directory containing one of the above files.  If
+  "roslint" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+make: *** [Makefile:1722: cmake_check_build_system] Error 1

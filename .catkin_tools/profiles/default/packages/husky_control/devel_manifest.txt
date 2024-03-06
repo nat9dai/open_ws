@@ -1,0 +1,5 @@
+husky/husky_control
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_control/cmake.lock /home/nat/ros_workspaces/open_ws/devel/./cmake.lock
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig-version.cmake /home/nat/ros_workspaces/open_ws/devel/share/husky_control/cmake/husky_controlConfig-version.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_control/share/husky_control/cmake/husky_controlConfig.cmake /home/nat/ros_workspaces/open_ws/devel/share/husky_control/cmake/husky_controlConfig.cmake
+/home/nat/ros_workspaces/open_ws/devel/.private/husky_control/lib/pkgconfig/husky_control.pc /home/nat/ros_workspaces/open_ws/devel/lib/pkgconfig/husky_control.pc
