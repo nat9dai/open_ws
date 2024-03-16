@@ -1,0 +1,38 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target _open_nmpc_controller_generate_messages_check_deps_OptimizationParameters
+[  0%] Built target _open_nmpc_controller_generate_messages_check_deps_OptimizationResult
+[ 28%] [34m[1mGenerating Lisp code from open_nmpc_controller/OptimizationResult.msg[0m
+[ 28%] [34m[1mGenerating C++ code from open_nmpc_controller/OptimizationParameters.msg[0m
+[ 50%] [34m[1mGenerating Javascript code from open_nmpc_controller/OptimizationResult.msg[0m
+[ 28%] [34m[1mGenerating Javascript code from open_nmpc_controller/OptimizationParameters.msg[0m
+[ 50%] [34m[1mGenerating Python from MSG open_nmpc_controller/OptimizationResult[0m
+[ 71%] [34m[1mGenerating C++ code from open_nmpc_controller/OptimizationResult.msg[0m
+[ 71%] [34m[1mGenerating EusLisp code from open_nmpc_controller/OptimizationResult.msg[0m
+[ 71%] [34m[1mGenerating Lisp code from open_nmpc_controller/OptimizationParameters.msg[0m
+[ 71%] [34m[1mGenerating EusLisp code from open_nmpc_controller/OptimizationParameters.msg[0m
+[ 71%] [34m[1mGenerating Python from MSG open_nmpc_controller/OptimizationParameters[0m
+[ 71%] Built target open_nmpc_controller_generate_messages_lisp
+[ 71%] Built target open_nmpc_controller_generate_messages_nodejs
+[ 71%] Built target open_nmpc_controller_generate_messages_cpp
+[ 78%] Built target open_nmpc_controller_generate_messages_eus
+[ 85%] [34m[1mGenerating Python msg __init__.py for open_nmpc_controller[0m
+[ 85%] Built target open_nmpc_controller_generate_messages_py
+[35m[1mScanning dependencies of target open_mpc_controller_node[0m
+[ 85%] Built target open_nmpc_controller_generate_messages
+[ 92%] [32mBuilding CXX object CMakeFiles/open_mpc_controller_node.dir/src/open_optimizer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/nat/ros_workspaces/open_ws/devel/.private/open_nmpc_controller/lib/open_nmpc_controller/open_mpc_controller_node[0m
+[100%] Built target open_mpc_controller_node

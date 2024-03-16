@@ -12,5 +12,4 @@ export LD_LIBRARY_PATH="/home/nat/ros_workspaces/open_ws/devel/.private/open_nmp
 export PKG_CONFIG_PATH="/home/nat/ros_workspaces/open_ws/devel/.private/open_nmpc_controller/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/nat/ros_workspaces/open_ws/build/open_nmpc_controller'
 export PYTHONPATH="/home/nat/ros_workspaces/open_ws/devel/.private/open_nmpc_controller/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/nat/ros_workspaces/open_ws/devel/.private/open_nmpc_controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/nat/ros_workspaces/open_ws/src/optimization_engine/mpc_controller/open_nmpc_controller:$ROS_PACKAGE_PATH"

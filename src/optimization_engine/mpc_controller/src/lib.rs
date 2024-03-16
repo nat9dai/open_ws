@@ -38,7 +38,7 @@ const MAX_DURATION_MICROS: u64 = 5000000;
 const PENALTY_UPDATE_FACTOR: f64 = 5.0;
 
 /// Initial penalty
-const INITIAL_PENALTY_PARAMETER: Option<f64> = Some(890.0);
+const INITIAL_PENALTY_PARAMETER: Option<f64> = Some(0.01);
 
 /// Sufficient decrease coefficient
 const SUFFICIENT_INFEASIBILITY_DECREASE_COEFFICIENT: f64 = 0.1;

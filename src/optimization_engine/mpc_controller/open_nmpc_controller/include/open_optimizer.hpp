@@ -34,7 +34,7 @@
 /**
  * Default initial penalty
  */
-#define ROS_NODE_MPC_CONTROLLER_DEFAULT_INITIAL_PENALTY 1e-2
+#define ROS_NODE_MPC_CONTROLLER_DEFAULT_INITIAL_PENALTY 0.01
 
 
 #endif /* Header Sentinel: MPC_DUMMY_H */
