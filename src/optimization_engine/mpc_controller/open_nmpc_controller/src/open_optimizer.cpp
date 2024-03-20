@@ -379,7 +379,7 @@ public:
         }
     }
 
-    void solveAndPublishCmdVel(ros::Publisher& publisher_cmd, ros::Publisher& publisher_traj, ros::Publisher& publisher_hierarchy, int robot_index)
+    void solveAndPublishCmdVel(ros::Publisher& publisher_cmd, ros::Publisher& publisher_traj, ros::Publisher& publisher_hierarchy, ros::Publisher& publisher_result, int robot_index)
     {
         double current_par[MPC_CONTROLLER_NUM_PARAMETERS] = {0};
         double current_var[MPC_CONTROLLER_NUM_DECISION_VARIABLES] = {0};
@@ -545,6 +545,9 @@ public:
         /* solve                  */
         mpc_controllerSolverStatus status
             = mpc_controller_solve(cache, current_var, current_par, 0, &init_penalty);
+
+        updateResults(status); /* pack results into `results` */
+        publishToTopic(publisher_result);
         
         lin_vel_cmd = current_var[0];
         ang_vel_cmd = current_var[1];
@@ -557,9 +560,6 @@ public:
         twist.angular.y = 0.0;
         twist.angular.z = ang_vel_cmd;
         publisher_cmd.publish(twist);
-
-        //params.initial_guess[0] = lin_vel_cmd;
-        //params.initial_guess[1] = ang_vel_cmd;
 
         nav_msgs::Path traj;
         traj.poses.resize(T);
@@ -578,11 +578,6 @@ public:
         x_next.resize(NX);
         x_next = nextState(current_pos, lin_vel_cmd, ang_vel_cmd);
         for (int i = 1; i < T; i++){
-            //param.initial_guess[i*NU] = current_var[i*NU];
-            //param.initial_guess[i*NU+1] = current_var[i*NU+1];
-            //params.initial_guess[i*NU] = current_var[i*NU];
-            //params.initial_guess[i*NU+1] = current_var[i*NU+1];
-
             traj.poses[i].pose.position.x = x_next[0];
             traj.poses[i].pose.position.y = x_next[1];
             // In this project, orientation msg is velocity in global frame
@@ -703,7 +698,7 @@ int main(int argc, char** argv)
     ros::Publisher pub_hierarchy = nh.advertise<std_msgs::UInt8>("husky_" + id + "/hierarchy", 1);
 
     while (ros::ok()) {
-        mng.solveAndPublishCmdVel(pub_twist_cmd, pub_traj, pub_hierarchy, robot_id);
+        mng.solveAndPublishCmdVel(pub_twist_cmd, pub_traj, pub_hierarchy, mpc_pub, robot_id);
         ros::spinOnce();
         loop_rate.sleep();
     }
